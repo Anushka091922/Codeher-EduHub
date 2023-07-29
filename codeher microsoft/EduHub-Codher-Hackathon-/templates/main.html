@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EduHub</title>
+    <link rel="stylesheet" href="style.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Law Firm Website Template" name="keywords">
+    <meta content="Law Firm Website Template" name="description">
+    <link rel="stylesheet" href="/static/newkanun.css">
+    <!-- <link rel="stylesheet" href="/static/style2.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Top waala bar will start from here -->
+        <div class="top-bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="logo">
+                            <a href="index.html">
+                                <h1>EduHub</h1>
+                                <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="top-bar-right">
+                            <div class="text">
+                                <!-- <h2>8:00 - 9:00</h2> -->
+                                <!-- <p>Opening Hour Mon - Fri</p> -->
+                            </div>
+                            <div class="text">
+                                <!-- <h2>+123 456 7890</h2> -->
+                                <!-- <p>Call Us For solving any Query</p> -->
+                            </div>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Bar yaha se End ho raha-->
+
+        <!-- Nav Bar yaha se Start -->
+        <div class="nav-bar">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">MENU</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto">
+                            <a href="" class="nav-item nav-link active">Home</a>
+                            <a href="#about" class="nav-item nav-link">About</a>
+                            <a href="{{url_for('dispCourses') }}" class="nav-item nav-link active">Courses</a>
+                            <a href="{{url_for('summary') }}" class="nav-item nav-link active">Summarise</a>
+                            <a href="{{url_for('FAQ') }}" class="nav-item nav-link active">FAQ</a>
+                            <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
+                            <!-- <a href="{{url_for('Emer') }}" class="nav-item nav-link">Emergency Nos</a> -->
+                            <!-- <a href="#Acts" class="nav-item nav-link">Acts</a> -->
+                            
+                            <!-- <a href="{{url_for('FAQ') }}" class="nav-item nav-link">FAQs</a> -->
+                            
+                            <a href="#Review" class="nav-item nav-link">Reviews</a>
+                            <!-- <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a> -->
+                            <!-- <div class="dropdown-menu">
+                                        <a href="blog.html" class="dropdown-item">Blog Page</a>
+                                        <a href="single.html" class="dropdown-item">Single Page</a>
+                                    </div> -->
+                            <!-- </div> -->
+                            <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+
+        <!-- Carousel Start -->
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://cdn.wallpapersafari.com/76/10/Un3w1N.jpg" alt="Carousel Image">
+                    <div class="carousel-caption">
+                        <h1 class="animated fadeInLeft">Ace Your Career</h1>
+                        <p class="animated fadeInRight">Learn for free with our comprehensive courses and notes! Get the knowledge you need to succeed in your studies today."</p>
+                        <a class="btn animated fadeInUp" href="#">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBptXRfit3z2Q3CSkrfcLpFdIoZX5T9vn5pA&usqp=CAU"
+                        alt="Carousel Image">
+                    <div class="carousel-caption">
+                        <h1 class="animated fadeInLeft">"Get Exam Ready"</h1>
+                        <p class="animated fadeInRight">"Maximize your learning potential with our free courses and notes. Access all the information you need to ace your exams." </p>
+                        <a class="btn animated fadeInUp" href="#">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWfbR98h8a-wsOoKDyKbEKtBRZ3SAoEVGtkQ&usqp=CAU" alt="Carousel Image">
+                    <div class="carousel-caption">
+                        <h1 class="animated fadeInLeft">"Empower Your Future: Unlock Your Potential Through Education.</h1>
+                        <p class="animated fadeInRight">"Get a comprehensive overview of key topics and concepts with our summaries"</p>
+                        <a class="btn animated fadeInUp" href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- Top Feature Start-->
+        <div class="feature-top">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="feature-item">
+                            <i class="far fa-check-circle"></i>
+                            <h3>Reliable</h3>
+                            <p>"Trust in Your Education: Build a Strong Foundation with Reliable Courses."</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="feature-item">
+                            <i class="fa fa-user-tie"></i>
+                            <h3>Get Easy Summarization</h3>
+                            <p>Effortlessly Comprehend</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="feature-item">
+                            <i class="far fa-thumbs-up"></i>
+                            <h3>Success</h3>
+                            <p>"Unlock Your Potential: Embrace the Journey to Success."</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="feature-item">
+                            <i class="far fa-handshake"></i>
+                            <h3>Educational Support</h3>
+                            <p>"Empowering Through Education: Building a Stronger Future with Supportive Resources.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Feature End-->
+
+
+        <!-- About Start -->
+        <div class="about" id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="about-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMEPU8AeJixVa8qz4xYneSnQsJXbVyM-Ch_1TFtOR_65OHvEFcmCovpYZhZFqDNc2UJW0&usqp=CAU"
+                                alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <div class="section-header">
+                            <h2>Learn About Us</h2>
+                        </div>
+                        <div class="about-text">
+                            <p> "We are constantly striving to improve and expand our offerings to meet the evolving needs of our learners. Our commitment to excellence drives us to provide the most up-to-date, relevant, and effective educational content."
+                            </p>
+                            <p>
+                               
+                                "At EduSummary, we believe that education is the key to unlocking human potential and creating a better world. That's why we are dedicated to providing the highest quality educational resources to learners around the globe."We understand that everyone learns differently, which is why we offer a variety of learning modes, including video lectures, interactive quizzes, and virtual labs, to suit every learning style. Our cutting-edge technology and expert instructional design ensure that our courses are effective, engaging, and enjoyable.
+
+                                At EduSummary, we are committed to creating a supportive and inclusive learning environment where every learner feels valued and respected. We believe in the power of collaboration and encourage learners to share their knowledge and experiences with each other.
+                                
+                                Join the EduSummary community today and discover the power of education to transform your life and the world around you. With our high-quality educational resources, innovative learning modes, and supportive community, you can achieve your goals and realize your full potential."
+                            </p>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- course  -->
+        <section class="course">
+            <h1>Services We Provide</h1>
+            <p>Here's what we can do for you</p>
+            <div class="row">
+                <div class="Services-col">
+                    <h3>Artificial Intelligenece and Machine learning</h3>
+                    <p> This course provides an introduction to the exciting and rapidly evolving field of Artificial Intelligence (AI) and Machine Learning (ML). </p>
+                </div>
+                <div class="Services-col">
+                    <h3>Entrepreneurship</h3>
+                    <p>This short course provides introduction to the exciting and challenging world of entreprenuership and gain valuable insights into the skills , knowledge and mindset required to succeed in this dynamic field</p>
+                </div>
+                <div class="Services-col">
+                    <h3>Introduction to Maths</h3>
+                    <p>This course provides introduces to fascinating world of mathematics.Students will learn about the fundamental concepts and principles of mathematics.</p>
+                </div>
+                <div class="Services-col">
+                    <h3>Fashion Designing</h3>
+                    <p>This course provides introduction to the exciting and colourful world of fashion designing.Students will learn the principles of design,colour theory,fabric selection etc.</p>
+                </div>
+                <div class="Services-col">
+                    <h3>Astrophysics</h3>
+                    <p> Here you will come across the fundamental principles and concepts of astronomy and astrophysics.Also you can get a clear understanding of the structure and evolution of the universe.</p>
+                </div>
+                <div class="Services-col">
+                    <h3>Rocket Science </h3>
+                    <p>This course provides introduction to the excitinng field of rocket science .With this course you will be able to deep dive into world full of stars.</p>
+                </div>
+                <!-- <div class="Services-col">
+                    <h3>FAQs</h3>
+                    <p>This feature will enable you to view the frequently asked questions.</p>
+                </div>
+                <div class="Services-col">
+                    <h3>Updates</h3>
+                    <p>This feature of our website will help you stay updated with all the latest schemes and services
+                        that our
+                        government provides for the citizens. </p>
+                </div>
+                <div class="Services-col">
+                    <h3>Legal Advice</h3>
+                    <p>This feature will help you to get legal advice from highly qualified professionals.</p>
+                </div>
+                <div class="Services-col">
+                    <h3>Emergency nos</h3>
+                    <p>Here all the numbers that can be required during an emergency are provided.</p>
+                </div> -->
+                
+            </div>
+
+        
+
+
+            
+            </section>
+
+
+
+            <!-- testimonials  -->
+            <!-- <section class="testimonials">
+        <h1>What Our User Says</h1>
+        <hr>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt laboriosam iusto pariatur veniam asperiores harum voluptatibus facilis?</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo5TmPdRp9mhJQ4Unm0a8Bh0OXTRWHMNz0hQ&usqp=CAU" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quasi nisi hic obcaecati iusto?</p>
+                    <h3>Monica Timberlake</h3>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="https://www.shutterstock.com/image-photo/handsome-smiling-young-man-portrait-260nw-2066727890.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quasi nisi hic obcaecati iusto?</p>
+                    <h3>Aalekh Nath</h3>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="https://www.shutterstock.com/image-photo/indian-man-front-yellow-dilapidated-260nw-1098456038.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quasi nisi hic obcaecati iusto?</p>
+                    <h3>Ayush Chaudhary</h3>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="https://www.shutterstock.com/image-photo/cheerful-traditional-indian-woman-260nw-557257591.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quasi nisi hic obcaecati iusto?</p>
+                    <h3>Jyoti Kulkarni</h3>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="https://www.shutterstock.com/image-photo/cheerful-young-indian-woman-outdoors-260nw-520322230.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quasi nisi hic obcaecati iusto?</p>
+                    <h3>Sima Bharadwaaj</h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&w=1000&q=80" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quasi nisi hic obcaecati iusto?</p>
+                    <h3>Justin Timberlake</h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+            </div>
+
+
+        </div>
+    </section> -->
+            <section class="testimonials" id="Review">
+                <h1>What Our Users Say</h1>
+                <a href="{{url_for('review') }}">Enter your review</a>
+                <!-- <p>"Fantastic website! The summaries provided are clear, concise and easy to understand. The courses offered are affordable and provide great value. Highly recommended for anyone looking to improve their knowledge and skills."</p> -->
+                <div class="row1">
+                    <div class="testimonials-col">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo5TmPdRp9mhJQ4Unm0a8Bh0OXTRWHMNz0hQ&usqp=CAU"
+                            alt="">
+                        <div>
+                            <p>{{user1.Review}}</p>
+
+                            <h3>{{ user1.username}}</h3>
+
+                            <i class="fa fa-star" aria-hidden="true">{{user1.Rating}}</i>
+                            <!-- <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i> -->
+                        </div>
+                    </div>
+                    <div class="testimonials-col">
+                        <img src="https://www.shutterstock.com/image-photo/handsome-smiling-young-man-portrait-260nw-2066727890.jpg"
+                            alt="">
+                        <div>
+                            <!-- <p>This website is an all-inclusive place for any educational related material.</p> -->
+                            <p>{{ user2.Review }}</p>
+                            <h3>{{ user2.username }}</h3>
+                            <i class="fa fa-star" aria-hidden="true">{{ user2.Rating }}</i>
+                            <!-- <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i> -->
+                        </div>
+                    </div>
+                    <div class="testimonials-col">
+                        <img src="https://www.shutterstock.com/image-photo/indian-man-front-yellow-dilapidated-260nw-1098456038.jpg"
+                            alt="">
+                        <div>
+                            <!-- <p>The websites concept of being able to search laws according to the categories is very unique and helpful.</p>
+                        <h3>Ayush Chaudhary</h3> -->
+                            <p>{{ user3.Review }}</p>
+                            <h3>{{ user3.username }}</h3>
+                            <i class="fa fa-star" aria-hidden="true">{{ user3.Rating }}</i>
+                            <!-- <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="testimonials-col">
+                        <img src="https://www.shutterstock.com/image-photo/cheerful-traditional-indian-woman-260nw-557257591.jpg"
+                            alt="">
+                        <div>
+                            <!-- <p></p> -->
+                            <p>{{ user4.Review }}</p>
+                            <h3>{{ user4.username }}</h3>
+                            <i class="fa fa-star" aria-hidden="true">{{ user4.Rating }}</i>
+                            <!-- <h3>Jyoti Kulkarni</h3>  -->
+                            <!-- <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i> -->
+                        </div>
+                    </div>
+                    <div class="testimonials-col">
+                        <img src="https://www.shutterstock.com/image-photo/cheerful-young-indian-woman-outdoors-260nw-520322230.jpg"
+                            alt="">
+                        <div>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quasi nisi hic obcaecati
+                            iusto?</p>
+                        <h3>Sima Bharadwaaj</h3> -->
+                            <!-- <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i> -->
+                            <p>{{ user5.Review }}</p>
+                            <h3>{{ user5.username }}</h3>
+                            <i class="fa fa-star" aria-hidden="true">{{ user5.Rating }}</i>
+
+                        </div>
+                    </div>
+                    <div class="testimonials-col">
+                        <img src="https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&w=1000&q=80"
+                            alt="">
+                        <div>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quasi nisi hic obcaecati
+                            iusto?</p>
+                        <h3>Justin Timberlake</h3>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i> -->
+                            <p>{{ user6.Review }}</p>
+                            <h3>{{ user6.username }}</h3>
+                            <i class="fa fa-star" aria-hidden="true">{{ user6.Rating }}</i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Contact us  -->
+            <section class="cta">
+                <h1>Contact Our Experts For Any Law Related Query</h1>
+                <a href="" class="home-btn">Contact Us</a>
+
+            </section>
+
+            <!-- footer  -->
+
+            <section class="footer">
+                <h4>About Us</h4>
+                <p>"At EduSummary, we believe that education is the key to unlocking human potential and creating a better world. That's why we are dedicated to providing the highest quality educational resources to learners around the globe."We understand that everyone learns differently, which is why we offer a variety of learning modes, including video lectures, interactive quizzes, and virtual labs, to suit every learning style. Our cutting-edge technology and expert instructional design ensure that our courses are effective, engaging, and enjoyable.
+
+                    At EduSummary, we are committed to creating a supportive and inclusive learning environment where every learner feels valued and respected. We believe in the power of collaboration and encourage learners to share their knowledge and experiences with each other.
+                    
+                    Join the EduSummary community today and discover the power of education to transform your life and the world around you. With our high-quality educational resources, innovative learning modes, and supportive community, you can achieve your goals and realize your full potential."</p>
+                <div class="icons">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                </div>
+                <section class="mainpage"></section>
+            </section>
+            <!-- this is the javascript for toggle menu  -->
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                function showMenu() {
+                    navLinks.style.right = "0";
+                }
+                function hideMenu() {
+                    navLinks.style.right = "-268px";
+                }
+            </script>
+            <script src="https://wallpaperaccess.com/full/702858.jpg"></script>
+
+
+
+
+            <!-- Newsletter Start -->
+            <!-- <div class="newsletter">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Contact us for more information</h2>
+                    </div> -->
+            <!-- <div class="form">
+                        <input class="form-control" placeholder="Email here">
+                        <button class="btn">Submit</button>
+                    </div> -->
+            <!-- </div> -->
+            <!-- </div> -->
+            <!-- Newsletter End -->
+
+
+            <!-- Footer Start -->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="footer-about">
+                                <h2>About Us</h2>
+                                <p>
+                                    "At EduSummary, we believe that education is the key to unlocking human potential and creating a better world. That's why we are dedicated to providing the highest quality educational resources to learners around the globe."We understand that everyone learns differently, which is why we offer a variety of learning modes, including video lectures, interactive quizzes, and virtual labs, to suit every learning style. Our cutting-edge technology and expert instructional design ensure that our courses are effective, engaging, and enjoyable.
+
+                                    At EduSummary, we are committed to creating a supportive and inclusive learning environment where every learner feels valued and respected. We believe in the power of collaboration and encourage learners to share their knowledge and experiences with each other.
+                                    
+                                    Join the EduSummary community today and discover the power of education to transform your life and the world around you. With our high-quality educational resources, innovative learning modes, and supportive community, you can achieve your goals and realize your full potential."
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-8">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="footer-link">
+                                        <h2>Services Areas</h2>
+                                        <a href="">Affordable Courses</a>
+                                        <a href="">Easy Summarization</a>
+                                        <a href="">Get Access to course material</a>
+                                        <a href="">Hand Gesture Recognition</a>
+                                        <!-- <a href="">Immigration Law</a> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="footer-link">
+                                        <h2>Useful Pages</h2>
+                                        <a href="">About Us</a>
+                                        <a href="">Courses</a>
+                                        <a href="">Summary</a>
+                                        <a href="">FAQ</a>
+                                        <!-- <a href=""></a> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="footer-contact">
+                                        <h2>Get In Touch</h2>
+                                        <!-- <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p> -->
+                                        <p><i class="fa fa-phone-alt"></i></p>
+                                        <p><i class="fa fa-envelope"></i>VJTI@gmail.com</p>
+                                        <div class="footer-social">
+                                            <a href=""><i class="fab fa-twitter"></i></a>
+                                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                                            <a href=""><i class="fab fa-youtube"></i></a>
+                                            <a href=""><i class="fab fa-instagram"></i></a>
+                                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+               
+            </div>
+            <!-- Footer End -->
+
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+	// ]]>
+    </script>
+</body>
+
+</html>

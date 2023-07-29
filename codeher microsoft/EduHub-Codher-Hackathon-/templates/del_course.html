@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login Panel</title>
+    <link rel="stylesheet" href="/static/addcourse.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="myform">
+            <h2>DELETE COURSE</h2>
+            <form action="/del_course" method="POST">
+                <!-- <input type="text" placeholder="Course Name">
+        <input type="text" placeholder="Description">
+        <input type="text" placeholder="Pre-requisite">
+        <input type="text" placeholder="Free"> -->
+                {{ form.hidden_tag() }}
+                {{ form.Subject }}
+                {{ form.Instructor}}
+                {{ form.Institute }}
+                <p class="btnn">{{ form.submit }}</p>
+            </form>
+            <!-- <button type="submit">ADD</button> -->
+        </div>
+
+    </div>
+
+</body>
+
+</html>

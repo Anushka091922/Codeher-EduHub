@@ -1,0 +1,96 @@
+/* body {
+    padding: 8rem 4rem;
+  }
+   */
+   h2 {
+    text-align: center;
+    color:#454646 !important;
+    font-family: Poppins; 
+  }
+  
+  p {
+    font-family: Poppins; 
+    font-weight: 600;
+    font-size: 20px;
+    color: DimGrey;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  
+  .flex-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: row; 
+    gap: 20px; 
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  
+  .flex-container_2 {
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: row; 
+    gap: 20px; 
+    justify-content: center;
+  }
+  
+  .quicklink {
+    height: 50px;
+    width: 210px; 
+    font-size: 15px; 
+    font-weight: 400; 
+    color: dimgrey; 
+    background-color: white; 
+    border: 1px solid DimGrey; 
+    border-radius: 50px; 
+  }
+  
+  .quicklink_2 {
+    height: 80px;
+    width: 80px; 
+    color: dimgrey; 
+    background-color: white; 
+    border: 1px solid DimGrey; 
+    border-radius: 50%; 
+  }
+  
+  .quicklink a {
+    text-decoration: none; 
+    color: DimGrey;
+    font-family: Poppins; 
+    font-weight: 600;
+  }
+  
+  .quicklink_2 a {
+    text-decoration: none; 
+    color: DimGrey;
+  }
+  
+  .quicklink:hover {
+    background-color: Dodgerblue; 
+    border: 2px solid #2091f7; 
+      box-shadow: 2px 2px 8px #053d75 inset;
+  }
+  
+  .quicklink_2:hover {
+    background-color: Dodgerblue; 
+    border: 2px solid #2091f7; 
+      box-shadow: 2px 2px 8px #053d75 inset;
+  }
+  
+  .quicklink:hover a {
+    color: white;
+  }
+  
+  .quicklink_2:hover a {
+    color: white;
+  }
+  
+  i {
+    padding-right: 15px;
+  }
+  
+  .quicklink_2 i {
+    padding-left: 15px;
+  }

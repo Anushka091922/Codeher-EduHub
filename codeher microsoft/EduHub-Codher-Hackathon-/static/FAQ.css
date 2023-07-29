@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+body{
+    background-color: rgb(252, 227, 174);
+    background-image: url(https://media.istockphoto.com/photos/gavel-and-scales-of-justice-on-desk-in-law-office-picture-id479252540?k=6&m=479252540&s=612x612&w=0&h=245YihHfFNUc_X7jWrAKZZYR07udk5Px9_L_6Ah7lJY=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height:100%; */
+    /* width:100%; */
+}
+#heading{
+    width: 100%;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    background:black;
+    padding: 10px;
+    border-radius: 4px;
+    color:white;
+}
+#img{
+    margin-left: 3%;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 50%;
+    border-radius: 4px;
+}
+#accordion{
+    position: absolute;
+    right: 3%;
+    top: 3.5%;
+    margin: 100px auto;
+    width: 600px;
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #c20000;
+}
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+    font-stretch: expanded;
+}
+#accordion label + input[type="radio"]{
+    display: none;
+}
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}

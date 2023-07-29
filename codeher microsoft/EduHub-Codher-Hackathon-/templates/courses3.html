@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <form class="search" action="/search" method="POST"></form>
+    {{ form.hidden_tag() }}
+    {{form.keyword}}
+    {{form.submit}} -->
+    <!-- <button class="space2" type="submit"><i class="fa fa-search">Search</i></button> -->
+    <!-- </form> -->
+    {% for course in courses %}
+    <p>{{course.Subject}}</p>
+    <p>{{course.Description}}</p>
+    <p>{{course.Duration}}</p>
+    <p>{{course.Institute}}</p>
+    <p>{{course.Instructor}}</p>
+    {% endfor %}
+</body>
+
+</html>

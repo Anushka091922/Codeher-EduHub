@@ -1,0 +1,153 @@
+#bookmarks-container {
+
+    color: #faf9f6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Roboto Slab', serif;
+
+    width: 25%;
+    background-color: #fffdfb;
+    font-weight: bolder;
+    /* position: absolute;
+top: 0;
+left: 0; */
+}
+
+#container {
+    /* display: flex;
+flex-direction: row; */
+    text-align: center;
+    /* background-color:  #b69d74;  */
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://wallpaperaccess.com/full/702978.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#searchbar {
+    width: 50px;
+    border-radius: 32px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-weight: bolder;
+    width: 50%;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: #aa916a;
+    color: #0c0c0c;
+}
+
+
+.question {
+    margin-bottom: 40px;
+}
+
+.question-text {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.question-answer {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #F5F5EF;
+}
+
+.answer-input {
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: #F5F5EF;
+}
+
+.submit-answer {
+    padding: 10px 15px;
+    font-size: 12px;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 32px;
+    font-family: 'Roboto Slab', serif;
+    color: aliceblue;
+    /* -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;  */
+    border: 1px solid #aa916a;
+    font-size: 20px;
+}
+
+.submit-answer:hover {
+    border: 1px solid transparent;
+}
+
+.add-question {
+    border-radius: 32px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.bookmark-button {
+    background-color: #0c0c0c;
+    color: #aa916a;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 32px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://wallpaperaccess.com/full/702978.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#add-question-input {
+    padding: 10px;
+    margin: 30px;
+    color: aliceblue;
+    background-color: #141414;
+    border-color: #aa916a;
+    border-radius: 34px;
+    height: 12px;
+
+}
+
+h2.question-text {
+    color: aliceblue;
+    font-family: 'Faustina', serif;
+    font-weight: bold;
+}
+
+.answer-input {
+    background-color: #000000;
+    color: #aa916a;
+    font-family: 'Faustina', serif;
+    border-radius: 32px;
+
+}
+
+#add-question-button {
+    border-radius: 12px;
+    border-color: #aa916a;
+    background-color: #000000;
+    color: #aa916a;
+}
+
+#bookmarks-container {
+    color: aliceblue;
+    background-color: #000000;
+    background: transparent;
+}

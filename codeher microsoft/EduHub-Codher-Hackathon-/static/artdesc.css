@@ -1,0 +1,23 @@
+.background-img {
+    background: url("photo1.jpg");
+    width: 100%;
+    height: 698px;
+    background-position: bottom right;
+  }
+  h1 {
+    color: red;
+    text-align: center;
+  }
+  h5 {
+    font-size: larger;
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+    border: 5px solid #541b1b;
+    text-align: center;
+    margin: 0;
+    outline-style: double;
+    /* align:center; */
+    background-image: url("photo7.jpg");
+    background-color: beige;
+  }
