@@ -1,16 +1,16 @@
 # Codeher-EduHub
-EduHub is the wensite which provides you the available free courses across all the platforms and also offered by range of universities at one place. 
+EduHub is the website that provides you with the available free courses across all the platforms and is also offered by a range of universities in one place. 
 
 # EduHub
 # Description:
 Introducing EduHub: Where Knowledge Meets Opportunity
 Welcome to EduHub, a cutting-edge online platform that brings an extensive selection of 
-free courses right to your fingertips. We take pride in offering a seamless and enriching 
-learning experience for both students and administrators.
+free courses suitable to your fingertips. We take pride in offering a seamless and enriching 
+a learning experience for both students and administrators.
 
 For Students:
 
-At EduHub, learning knows no boundaries. Explore a diverse array of courses spanning 
+At EduHub, learning knows no boundaries. Explore various courses spanning 
 various disciplines, carefully curated from top educational platforms and esteemed 
 institutions worldwide. Whether you are a student eager to expand your knowledge or a 
 lifelong learner pursuing a passion, we have something for everyone. Our user-friendly 
@@ -26,9 +26,9 @@ relevant, and reach a global audience of enthusiastic learners—all with ease a
 
 # Features:
 
-1)on the website the user will get the list of free courses only and not the paid ones.
+1)on the website, the user will get the list of free courses, not the paid ones.
 
-2)student can have access to all the free courses from all the platforms combined on the 
+2) Students can have access to all the free courses from all the platforms combined on the 
 
 single website Edu-Hub.
 
@@ -79,20 +79,20 @@ https://drive.google.com/drive/folders/1iLvOGEsbiwVZWv7-zxZ9pgZjxUuFSfc?usp=sha
 
 Fully implemented features:
 ● Have successfully added all the free courses which are available on various 
-platforms including coursera, udemy, edx etc.
-● Developed the saperate login for the students and the course administrator
+platforms including Coursera, udemy, edx, etc.
+● Developed separate login for the students and the course administrator
 ● Successfully included the feature of advanced search for seamless searching 
 of the courses
 Partially implemented features:
-● Screen reading feature for the spacially abled people making them easy to
+● Screen reading feature for the specially-abled people making them easy to
 access the website.
 
 # FUTURE SCOPE:
 
-1. Implementing the summary feature for the last time revision of the for 
+1. Implementing the summary feature for the last time revision for 
 the students.
-2. Creating the workspace where the students pursuing the same course can 
-share their handwritten notes for other to access them.
+2. Creating a workspace where the students pursuing the same course can 
+share their handwritten notes for others to access them.
 
 # APPLICATIONS:
 
