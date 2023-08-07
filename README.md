@@ -1,4 +1,4 @@
-# Codeher-EduHub
+# Codeher-EduHub:
 EduHub is the website that provides you with the available free courses across all the platforms and is also offered by a range of universities in one place. 
 
 # EduHub
@@ -8,7 +8,7 @@ Welcome to EduHub, a cutting-edge online platform that brings an extensive selec
 free courses suitable to your fingertips. We take pride in offering a seamless and enriching 
 a learning experience for both students and administrators.
 
-For Students:
+# For Students:
 
 At EduHub, learning knows no boundaries. Explore various courses spanning 
 various disciplines, carefully curated from top educational platforms and esteemed 
@@ -17,7 +17,7 @@ lifelong learner pursuing a passion, we have something for everyone. Our user-fr
 student interface allows you to easily browse, enroll, and track your progress as you 
 embark on an exciting educational journey.
 
-For Administrators:
+# For Administrators:
 
 We understand the importance of efficient course management. That's why our platform 
 provides a dedicated admin interface, allowing educational institutions and content 
@@ -27,12 +27,10 @@ relevant, and reach a global audience of enthusiastic learners—all with ease a
 # Features:
 
 1)on the website, the user will get the list of free courses, not the paid ones.
-
-2) Students can have access to all the free courses from all the platforms combined on the 
-
-single website Edu-Hub.
+2) Students can have access to all the free courses from all the platforms combined on the single website Edu-Hub.
 
 # TECH-STACK:
+
 # Front-end
 
 ● HTML
@@ -75,9 +73,9 @@ https://drive.google.com/drive/folders/1iLvOGEsbiwVZWv7-zxZ9pgZjxUuFSfc?usp=sha
 ![image](https://github.com/Anushka091922/Codeher-EduHub/assets/114327511/43e0db63-b71c-49a6-8a23-fec45de0a6a7)
 
 
-#PROGRESS:
+# PROGRESS:
 
-Fully implemented features:
+# Fully implemented features:
 ● Have successfully added all the free courses which are available on various 
 platforms including Coursera, udemy, edx, etc.
 ● Developed separate login for the students and the course administrator
@@ -96,32 +94,33 @@ share their handwritten notes for others to access them.
 
 # APPLICATIONS:
 
-1. Access to Quality Education: EduHub provides students worldwide with access 
-to high-quality courses from top educational platforms and prestigious institutions. 
-This opens up opportunities for learners who may not have access to such 
+1. Access to Quality Education: EduHub provides students worldwide with access to high-quality courses from top educational platforms and prestigious institutions. This opens up opportunities for learners who may not have access to such 
 resources otherwise.
-2. Diverse Learning Opportunities: Students can explore a wide range of 
-subjects and disciplines through EduHub, allowing them to discover new interests 
-and pursue their passions.
-3. Professional Development: Working professionals can use EduHub to upskill 
-or reskill themselves, enhancing their career prospects and staying relevant in a 
+
+3. Diverse Learning Opportunities: Students can explore a wide range of subjects and disciplines through EduHub, allowing them to discover new interests and pursue their passions.
+
+5. Professional Development: Working professionals can use EduHub to upskill or reskill themselves, enhancing their career prospects and staying relevant in a 
 rapidly evolving job market.
-4. Cost-Effective Learning: By offering free courses, EduHub helps reduce 
-financial barriers to education, making learning more affordable and accessible to 
-learners from all socioeconomic backgrounds.
+
+7. Cost-Effective Learning: By offering free courses, EduHub helps reduce financial barriers to education, making learning more affordable and accessible to learners from all socioeconomic backgrounds.
 
 # PROJECT SETUP:
 
 1)Clone your repository using the following link
 https://github.com/Anushka091922/CodeherEduHub
+
 2)Navigate into the cloned directory:
 cd [YOUR_REPO_NAME]
+
 3)Create and activate a virtual environment (optional, but recommended):
 python -m venv env
 source env/bin/activate
+
 4)Install Flask by running the following command in your terminal:
 pip install Flask
+
 5)Install all the packages mentioned in requirements.txt.
+
 6)Then run the app.py file
 
 # Project by:
